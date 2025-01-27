@@ -1,0 +1,43 @@
+.root {
+  height: 446px;
+  margin: 0 50px;
+}
+
+.centralElements {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centralElements h2 {
+  margin: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(47, 51, 73);
+}
+
+.centralElements img {
+  width: 151px;
+}
+
+.centralElements p {
+  font-family: Figtree, sans-serif;
+  font-size: 18px;
+  color: rgb(47, 51, 73);
+}
+
+.logoGrid {
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.logoGrid img {
+  width: 100px;
+}

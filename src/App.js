@@ -1,4 +1,5 @@
 import './App.css';
+import Companies from './Companies/Companies.js';
 import Header from './Header/Header.js';
 import PageTop from './PageTop/PageTop.js';
 
@@ -8,7 +9,7 @@ export default function App() {
       <Header />
       <main>
         <PageTop />
-        <div className="space">Hi</div>
+        <Companies />
       </main>
     </div>
   );
