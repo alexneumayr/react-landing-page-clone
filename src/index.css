@@ -22,3 +22,15 @@ body {
     margin: 0;
   }
 }
+
+h2 {
+  font-family: Urbanist, sans-serif;
+  color: rgb(47, 51, 73);
+}
+
+p {
+  font-family: Figtree, sans-serif;
+  font-size: 18px;
+  color: rgb(47, 51, 73);
+  line-height: 30px;
+}

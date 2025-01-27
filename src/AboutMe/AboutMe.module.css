@@ -1,0 +1,34 @@
+.root {
+  height: 683px;
+  background-color: rgb(230, 235, 228);
+}
+
+.aboutGrid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 20px;
+  align-content: center;
+}
+
+.aboutGrid img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+}
+
+.firstGridColumn {
+  max-width: 486px;
+  min-width: 319px;
+  align-self: center;
+  justify-self: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.secondGridColumn {
+  margin: 0 20px;
+  max-width: 585px;
+  justify-self: start;
+}
