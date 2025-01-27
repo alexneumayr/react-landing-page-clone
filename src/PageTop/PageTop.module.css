@@ -1,0 +1,68 @@
+.root {
+  background: rgb(254, 243, 223);
+  height: 580px;
+  font-family: Urbanist, serif;
+}
+.secondGridColumn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.division {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  gap: 20px;
+  margin: 0 20px;
+}
+.semicircle {
+  width: 100%;
+  align-self: end;
+}
+.photo {
+  position: absolute;
+  bottom: -30px;
+  width: 334px;
+  align-self: end;
+}
+
+.firstGridColumn h1 {
+  font-size: 46px;
+  color: rgb(47, 51, 73);
+  max-width: 575px;
+  margin: 0;
+  padding: 0;
+}
+
+.firstGridColumn p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Figtree, sans-serif;
+  color: rgb(47, 51, 73);
+  margin: 0;
+  padding: 0;
+}
+
+.firstGridColumn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background: rgb(47, 51, 73);
+  margin-top: 5px;
+  width: 278px;
+  padding: 12px;
+}
+
+.button a {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
