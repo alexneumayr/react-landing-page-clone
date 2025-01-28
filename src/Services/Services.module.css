@@ -56,6 +56,9 @@
 
 .servicesContainer h2 {
   font-size: 40px;
+  @media (max-width: 1020px) {
+    font-size: 32px;
+  }
   @media (max-width: 765px) {
     font-size: 24px;
   }

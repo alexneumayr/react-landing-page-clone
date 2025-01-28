@@ -47,6 +47,9 @@ h1 {
   max-width: 575px;
   margin: 0;
   padding: 0;
+  @media (max-width: 1020px) {
+    font-size: 36px;
+  }
   @media (max-width: 765px) {
     font-size: 26px;
   }

@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  text-wrap: balance;
   max-width: 414px;
   border: 1px solid rgb(245, 245, 245);
   transition: all 0.2s ease-in;
+  padding: 0 10px;
+
   @media (max-width: 765px) {
     max-width: initial;
     margin-top: 0;
@@ -30,6 +31,9 @@
 .customerPhoto {
   max-width: 89px;
   border-radius: 50%;
+  @media (max-width: 765px) {
+    width: 58px;
+  }
 }
 
 .customerPhotoBackground {
