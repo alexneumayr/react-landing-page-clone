@@ -18,8 +18,8 @@ export default function App() {
         <Companies />
         <AboutMe />
         <Services />
-        {/* <GetInTouch />
-        <Testimonials />
+        <GetInTouch />
+        {/* <Testimonials />
         <ReadyToGrow />
         <Footer /> */}
       </main>

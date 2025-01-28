@@ -37,15 +37,16 @@
     width: 95%;
   }
 }
-.photo {
-  position: absolute;
-  bottom: -30px;
-  width: 80%;
-  align-self: end;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+.photoMobile {
+  display: none;
   @media (max-width: 765px) {
+    bottom: -30px;
+    width: 80%;
+    align-self: end;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
     position: relative;
     z-index: 2;
+    display: initial;
   }
 }
 
@@ -65,8 +66,6 @@
   gap: 20px;
   flex-direction: column;
   grid-template-columns: 1fr 1fr;
-  @media (max-width: 765px) {
-  }
 }
 
 .photoAndSemicircleMobile {
@@ -74,5 +73,18 @@
   @media (max-width: 765px) {
     display: flex;
     justify-content: center;
+  }
+}
+
+.photo {
+  position: absolute;
+  bottom: -30px;
+  width: 80%;
+  max-width: 368px;
+  min-width: 295px;
+  align-self: end;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+  @media (max-width: 765px) {
+    display: none;
   }
 }

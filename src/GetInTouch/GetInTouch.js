@@ -8,6 +8,7 @@ export default function Header() {
     <div className={styles.root}>
       <div className={styles.division}>
         <div className={styles.firstGridColumn}>
+          <h3>Work with me.</h3>
           <h1>I get the most out of it.</h1>
           <p>
             Let’s talk about the results I can get for your business. Free of
