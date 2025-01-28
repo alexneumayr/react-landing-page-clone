@@ -63,6 +63,9 @@
   color: rgb(47, 51, 73);
   margin: 0;
   padding: 0;
+  @media (max-width: 765px) {
+    font-size: 24px;
+  }
 }
 
 .firstGridColumn p {

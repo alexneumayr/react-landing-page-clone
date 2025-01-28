@@ -25,6 +25,9 @@
 
 .testimonialsContainer h2 {
   font-size: 40px;
+  @media (max-width: 765px) {
+    font-size: 24px;
+  }
 }
 
 .customerPhoto {
