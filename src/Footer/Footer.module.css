@@ -24,7 +24,8 @@
   }
   @media (max-width: 765px) {
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
+    align-items: start;
   }
 }
 

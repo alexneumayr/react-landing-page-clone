@@ -3,6 +3,7 @@
   background-color: rgb(230, 235, 228);
   @media (max-width: 765px) {
     height: auto;
+    padding-top: 50px;
   }
 }
 
