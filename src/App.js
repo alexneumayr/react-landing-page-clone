@@ -5,6 +5,7 @@ import GetInTouch from './GetInTouch/GetInTouch.js';
 import Header from './Header/Header.js';
 import PageTop from './PageTop/PageTop.js';
 import Services from './Services/Services.js';
+import Testimonials from './Testimonials/Testimonials.js';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <AboutMe />
         <Services />
         <GetInTouch />
+        <Testimonials />
       </main>
     </div>
   );

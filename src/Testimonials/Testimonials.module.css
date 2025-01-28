@@ -1,0 +1,29 @@
+.root {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.testimonialsArea {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.testimonialsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.testimonialsContainer h2 {
+  font-size: 40px;
+}
+
+.customerPhoto {
+  max-width: 89px;
+  border-radius: 50%;
+}

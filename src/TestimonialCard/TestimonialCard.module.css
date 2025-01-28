@@ -1,0 +1,48 @@
+.root {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+  align-items: center;
+  text-align: center;
+  text-wrap: balance;
+  max-width: 414px;
+  border: 1px solid rgb(245, 245, 245);
+  transition: all 0.2s ease-in;
+}
+
+.root:hover {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 17px 5px;
+}
+
+.quoteIcon {
+  width: 40px;
+}
+
+.root p {
+  font-size: 16px;
+}
+
+.customerPhoto {
+  max-width: 89px;
+  border-radius: 50%;
+}
+
+.customerPhotoBackground {
+  display: flex;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 0px 10px 0px;
+}
+
+.customerName {
+  color: rgb(47, 51, 73);
+}
+
+.instaIcon {
+  color: rgb(47, 51, 73);
+}
+
+.customerDetails p {
+  color: rgb(47, 51, 73);
+}
