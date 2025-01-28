@@ -16,8 +16,8 @@ export default function App() {
       <main>
         <PageTop />
         <Companies />
-        {/* <AboutMe />
-        <Services />
+        <AboutMe />
+        {/*<Services />
         <GetInTouch />
         <Testimonials />
         <ReadyToGrow />
