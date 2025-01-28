@@ -1,4 +1,65 @@
 .root {
-  height: 590px;
   background-color: rgb(47, 51, 73);
+}
+
+.footerContainer {
+  max-width: 1173px;
+  margin: 0 auto;
+}
+
+.upperFooter {
+  height: 400px;
+  display: flex;
+  gap: 10px;
+  margin: 0 20px;
+
+  align-items: center;
+}
+
+.lowerFooter {
+  height: 170px;
+}
+
+.imgContainer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.lowerFooter img {
+  height: 72px;
+}
+
+.footerCard {
+  width: 369px;
+  height: 260px;
+}
+
+.footerCard p {
+  color: rgb(255, 255, 255);
+}
+
+.footerCard img {
+  height: 42px;
+}
+
+.footerCard a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: Figtree, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footerCard ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footerHeading {
+  display: flex;
+  height: 42px;
+  align-items: center;
 }

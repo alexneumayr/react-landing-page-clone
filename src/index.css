@@ -40,3 +40,19 @@ h3 {
   color: rgb(47, 51, 73);
   font-size: 22px;
 }
+
+h1 {
+  font-size: 46px;
+  color: rgb(47, 51, 73);
+  max-width: 575px;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: Figtree, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}

@@ -26,14 +26,6 @@
   align-self: end;
 }
 
-.firstGridColumn h1 {
-  font-size: 46px;
-  color: rgb(47, 51, 73);
-  max-width: 575px;
-  margin: 0;
-  padding: 0;
-}
-
 .firstGridColumn p {
   font-size: 18px;
   line-height: 30px;
