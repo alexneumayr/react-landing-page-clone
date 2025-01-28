@@ -14,9 +14,7 @@ export default function Header() {
             Let’s talk about the results I can get for your business. Free of
             jargon and without bullshit bingo.
           </p>
-          <LinkButton href="/" className={styles.pageTopButton}>
-            Get in touch
-          </LinkButton>
+          <LinkButton href="/">Get in touch</LinkButton>
           <div className={styles.photoAndSemicircleMobile}>
             <img
               src={beachPhoto}

@@ -13,7 +13,7 @@ export default function TestimonialCard({
   return (
     <div className={styles.root}>
       <img src={quote} alt="quote icon" className={styles.quoteIcon} />
-      <p className={styles.testimonialText}>{testimonialText}</p>
+      <p>{testimonialText}</p>
       <div className={styles.customerPhotoBackground}>
         <img src={photo} alt="customer" className={styles.customerPhoto} />
       </div>

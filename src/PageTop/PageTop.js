@@ -15,9 +15,7 @@ export default function Header() {
             I’ll get the most out of your Google Ads campaigns or teach you the
             intricacies so you can do it yourself!
           </p>
-          <LinkButton href="/" className={styles.pageTopButton}>
-            I want to outsource Google Ads
-          </LinkButton>
+          <LinkButton href="/">I want to outsource Google Ads</LinkButton>
           <div className={styles.photoAndSemicircleMobile}>
             <img src={photo} alt="me" className={styles.photoMobile} />
             <img
