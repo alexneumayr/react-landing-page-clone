@@ -8,12 +8,17 @@
 }
 
 .upperFooter {
-  height: 400px;
-  display: flex;
+  min-height: 400px;
   gap: 10px;
+  display: flex;
   margin: 0 20px;
-
+  padding-top: 20px;
   align-items: center;
+  flex-wrap: nowrap;
+  @media (max-width: 1020px) {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .lowerFooter {
