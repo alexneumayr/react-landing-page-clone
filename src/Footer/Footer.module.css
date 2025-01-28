@@ -5,6 +5,9 @@
 .footerContainer {
   max-width: 1173px;
   margin: 0 auto;
+  @media (max-width: 765px) {
+    padding-top: 50px;
+  }
 }
 
 .upperFooter {
@@ -18,6 +21,10 @@
   @media (max-width: 1020px) {
     flex-wrap: wrap;
     gap: 30px;
+  }
+  @media (max-width: 765px) {
+    flex-direction: column;
+    gap: 0px;
   }
 }
 
@@ -40,6 +47,9 @@
 .footerCard {
   width: 369px;
   height: 260px;
+  @media (max-width: 765px) {
+    height: initial;
+  }
 }
 
 .footerCard p {
@@ -61,6 +71,10 @@
 .footerCard ul {
   list-style: none;
   margin-top: 20px;
+  @media (max-width: 765px) {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .footerHeading {
