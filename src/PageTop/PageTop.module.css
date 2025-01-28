@@ -1,7 +1,8 @@
 .root {
   background: rgb(254, 243, 223);
-  height: 580px;
+  height: 650px;
   font-family: Urbanist, serif;
+  padding-top: 100px;
 }
 .secondGridColumn {
   display: flex;
@@ -24,6 +25,7 @@
   bottom: -30px;
   width: 334px;
   align-self: end;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
 }
 
 .firstGridColumn p {

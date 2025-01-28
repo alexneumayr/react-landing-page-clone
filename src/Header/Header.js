@@ -8,42 +8,40 @@ export default function Header() {
   return (
     <header className={styles.root}>
       <nav className={styles.nav}>
-        <div className={styles.logoContainer}>
-          <img className={styles.logo} src={logo} alt="Logo" />
-        </div>
         <div>
-          <ul className={styles.links}>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">
-                Google Ads Services
-                <FontAwesomeIcon
-                  icon={faChevronDown}
-                  className={styles.downIcon}
-                />
-              </a>
-            </li>
-            <li>
-              <a href="/">Google Ads resources</a>
-            </li>
-            <li>
-              <a href="/">About me</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
-            </li>
-            <li>
-              <div className={styles.language}>
-                <a href="/">
-                  <img src={nl} alt="language" />
-                  NL
-                </a>
-              </div>
-            </li>
-          </ul>
+          <img src={logo} alt="Logo" className={styles.logo} />
         </div>
+        <ul className={styles.links}>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">
+              Google Ads Services
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className={styles.downIcon}
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/">Google Ads resources</a>
+          </li>
+          <li>
+            <a href="/">About me</a>
+          </li>
+          <li>
+            <a href="/">Contact</a>
+          </li>
+          <li>
+            <div className={styles.language}>
+              <a href="/">
+                <img src={nl} alt="language" />
+                NL
+              </a>
+            </div>
+          </li>
+        </ul>
       </nav>
     </header>
   );
