@@ -3,6 +3,7 @@ import AboutMe from './AboutMe/AboutMe.js';
 import Companies from './Companies/Companies.js';
 import Header from './Header/Header.js';
 import PageTop from './PageTop/PageTop.js';
+import Services from './Services/Services.js';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <PageTop />
         <Companies />
         <AboutMe />
+        <Services />
       </main>
     </div>
   );

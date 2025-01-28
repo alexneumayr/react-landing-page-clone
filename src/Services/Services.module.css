@@ -1,0 +1,52 @@
+.root {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.serviceArea {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.serviceArea img {
+  width: 100px;
+}
+
+.serviceCard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  align-items: center;
+  text-align: center;
+  text-wrap: balance;
+  max-width: 414px;
+}
+
+.servicesContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.variant1 {
+  background-color: rgb(254, 243, 223);
+}
+
+.variant2 {
+  background-color: rgb(230, 235, 228);
+}
+
+.variant3 {
+  background-color: rgb(224, 241, 241);
+}
+
+.servicesContainer h2 {
+  font-size: 40px;
+}

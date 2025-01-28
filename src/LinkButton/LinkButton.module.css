@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 12px 20px;
+  max-width: fit-content;
+  font-family: Figtree, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.primary {
+  background: rgb(47, 51, 73);
+  color: white;
+}
+
+.secondary {
+  border: 1px solid rgba(47, 51, 73, 0.23);
+  width: 100%;
+  max-width: 246px;
+  padding: 10px;
+  color: rgb(47, 51, 73);
+}
+
+.secondary a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.secondary:hover {
+  background: rgb(47, 51, 73);
+  color: white;
+}

@@ -1,5 +1,6 @@
 import brownSemicircle from '../images/brownsemicircle.svg';
 import photo from '../images/photo.png';
+import LinkButton from '../LinkButton/LinkButton';
 import styles from './PageTop.module.css';
 
 export default function Header() {
@@ -14,9 +15,9 @@ export default function Header() {
             I’ll get the most out of your Google Ads campaigns or teach you the
             intricacies so you can do it yourself!
           </p>
-          <div className={styles.button}>
-            <a href="/">I want to outsource Google Ads</a>
-          </div>
+          <LinkButton href="/" className={styles.pageTopButton}>
+            I want to outsource Google Ads
+          </LinkButton>
         </div>
 
         <div className={styles.secondGridColumn}>

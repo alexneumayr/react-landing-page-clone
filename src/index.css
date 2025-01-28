@@ -34,3 +34,9 @@ p {
   color: rgb(47, 51, 73);
   line-height: 30px;
 }
+
+h3 {
+  font-family: Urbanist, sans-serif;
+  color: rgb(47, 51, 73);
+  font-size: 22px;
+}
