@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="915.94 327.599 629.411 333.356" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="a">
+      <rect width="1723" height="660" transform="translate(-2 3147)" fill="#e1f0f0"/>
+    </clipPath>
+    <filter id="b" x="880.233" y="310.487" width="702" height="702" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.733" dy="20.987" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13.5" result="c"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="c"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 2, -3147)" clip-path="url(#a)">
+    <g transform="translate(918 3477)">
+      <g transform="matrix(1, 0, 0, 1, -920, -330)" filter="url(#b)" style="mix-blend-mode:darken;isolation:isolate">
+        <circle cx="310.5" cy="310.5" r="310.5" transform="translate(920 330)" fill="#80bcbc" opacity="0.322"/>
+      </g>
+    </g>
+  </g>
+</svg>
