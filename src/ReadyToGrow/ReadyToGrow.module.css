@@ -1,0 +1,13 @@
+.root {
+  height: 389px;
+  background-color: rgb(254, 243, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.growParagraph {
+  width: 730px;
+  text-align: center;
+}
