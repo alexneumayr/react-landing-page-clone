@@ -9,6 +9,10 @@
   max-width: 414px;
   border: 1px solid rgb(245, 245, 245);
   transition: all 0.2s ease-in;
+  @media (max-width: 765px) {
+    max-width: initial;
+    margin-top: 0;
+  }
 }
 
 .root:hover {

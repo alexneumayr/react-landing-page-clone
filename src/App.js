@@ -19,9 +19,9 @@ export default function App() {
         <AboutMe />
         <Services />
         <GetInTouch />
-        {/* <Testimonials />
+        <Testimonials />
         <ReadyToGrow />
-        <Footer /> */}
+        {/* <Footer /> */}
       </main>
     </div>
   );
