@@ -17,8 +17,8 @@ export default function App() {
         <PageTop />
         <Companies />
         <AboutMe />
-        {/*<Services />
-        <GetInTouch />
+        <Services />
+        {/* <GetInTouch />
         <Testimonials />
         <ReadyToGrow />
         <Footer /> */}
