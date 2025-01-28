@@ -5,9 +5,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 765px) {
+    height: 329px;
+  }
 }
 
 .growParagraph {
   width: 730px;
   text-align: center;
+  @media (max-width: 765px) {
+    width: initial;
+    margin: 0 40px 30px;
+  }
 }
