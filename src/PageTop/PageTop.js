@@ -18,8 +18,15 @@ export default function Header() {
           <LinkButton href="/" className={styles.pageTopButton}>
             I want to outsource Google Ads
           </LinkButton>
+          <div className={styles.photoAndSemicircleMobile}>
+            <img src={photo} alt="me" className={styles.photo} />
+            <img
+              src={brownSemicircle}
+              className={styles.semicircle}
+              alt="brown background semicircle"
+            />
+          </div>
         </div>
-
         <div className={styles.secondGridColumn}>
           <img
             src={brownSemicircle}

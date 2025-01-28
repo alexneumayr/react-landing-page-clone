@@ -15,13 +15,13 @@ export default function App() {
       <Header />
       <main>
         <PageTop />
-        <Companies />
+        {/* <Companies />
         <AboutMe />
         <Services />
         <GetInTouch />
         <Testimonials />
         <ReadyToGrow />
-        <Footer />
+        <Footer /> */}
       </main>
     </div>
   );
