@@ -1,6 +1,9 @@
 .root {
   height: 446px;
   margin: 0 50px;
+  @media (max-width: 765px) {
+    height: 600px;
+  }
 }
 
 .centralElements {
@@ -15,10 +18,16 @@
   margin: 10px;
   font-size: 40px;
   font-weight: 700;
+  @media (max-width: 765px) {
+    font-size: 24px;
+  }
 }
 
 .centralElements img {
   width: 100px;
+  @media (max-width: 765px) {
+    width: 151px;
+  }
 }
 
 .logoGrid {
@@ -28,4 +37,15 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
   gap: 20px;
+  @media (max-width: 765px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.logoGrid img {
+  @media (max-width: 765px) {
+    width: 100px;
+    justify-self: center;
+  }
 }

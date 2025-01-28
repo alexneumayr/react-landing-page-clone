@@ -15,8 +15,8 @@ export default function App() {
       <Header />
       <main>
         <PageTop />
-        {/* <Companies />
-        <AboutMe />
+        <Companies />
+        {/* <AboutMe />
         <Services />
         <GetInTouch />
         <Testimonials />
