@@ -17,8 +17,19 @@ export default function Header() {
           <LinkButton href="/" className={styles.pageTopButton}>
             Get in touch
           </LinkButton>
+          <div className={styles.photoAndSemicircleMobile}>
+            <img
+              src={beachPhoto}
+              alt="me walking on a beach"
+              className={styles.photoMobile}
+            />
+            <img
+              src={blueSemicircle}
+              className={styles.semicircle}
+              alt="blue background semicircle"
+            />
+          </div>
         </div>
-
         <div className={styles.secondGridColumn}>
           <img
             src={blueSemicircle}
