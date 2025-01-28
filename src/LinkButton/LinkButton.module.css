@@ -19,6 +19,9 @@
   max-width: 246px;
   padding: 10px;
   color: rgb(47, 51, 73);
+  @media (max-width: 765px) {
+    max-width: initial;
+  }
 }
 
 .secondary a {

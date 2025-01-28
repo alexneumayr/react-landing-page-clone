@@ -28,6 +28,10 @@
   text-align: center;
   text-wrap: balance;
   max-width: 414px;
+  @media (max-width: 765px) {
+    max-width: initial;
+    text-wrap: initial;
+  }
 }
 
 .servicesContainer {
