@@ -29,7 +29,6 @@
 }
 .semicircle {
   width: 100%;
-
   align-self: end;
   @media (max-width: 765px) {
     position: absolute;
@@ -56,6 +55,7 @@
   color: rgb(47, 51, 73);
   margin: 0;
   padding: 0;
+  max-width: 535px;
 }
 
 .firstGridColumn {

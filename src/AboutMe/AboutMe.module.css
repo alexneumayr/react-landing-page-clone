@@ -1,6 +1,7 @@
 .root {
-  height: 683px;
+  /* height: 683px; */
   background-color: rgb(230, 235, 228);
+  padding: 80px 0 80px;
   @media (max-width: 765px) {
     height: auto;
     padding-top: 50px;

@@ -20,7 +20,7 @@
   flex-wrap: nowrap;
   @media (max-width: 1020px) {
     flex-wrap: wrap;
-    gap: 30px;
+    column-gap: 30px;
   }
   @media (max-width: 765px) {
     flex-direction: column;
@@ -48,6 +48,11 @@
 .footerCard {
   width: 369px;
   height: 260px;
+  @media (max-width: 1020px) {
+    height: initial;
+    width: 300px;
+  }
+
   @media (max-width: 765px) {
     height: initial;
   }
