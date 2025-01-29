@@ -9,7 +9,9 @@ export default function Header() {
       <div className={styles.division}>
         <div className={styles.firstGridColumn}>
           <h1>
-            Your Google Ads campaigns perform better with me behind the wheel.
+            Your Google Ads campaigns{' '}
+            <span className={styles.underline}>perform better</span> with me
+            behind the wheel.
           </h1>
           <p>
             I’ll get the most out of your Google Ads campaigns or teach you the
