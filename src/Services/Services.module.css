@@ -8,7 +8,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  align-items: center;
   margin: 0 30px;
   @media (max-width: 765px) {
     flex-direction: column;
