@@ -1,10 +1,9 @@
 .root {
-  /* height: 683px; */
   background-color: rgb(230, 235, 228);
   padding: 80px 0 80px;
   @media (max-width: 765px) {
-    height: auto;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
   }
 }
 
@@ -15,8 +14,8 @@
   margin: 0 20px;
   align-content: center;
   @media (max-width: 765px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -30,6 +29,10 @@
   min-width: 319px;
   align-self: center;
   justify-self: center;
+  @media (max-width: 765px) {
+    max-width: initial;
+    min-width: initial;
+  }
 }
 
 h2 {
@@ -44,6 +47,7 @@ h2 {
   max-width: 585px;
   justify-self: start;
   @media (max-width: 765px) {
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
 }
