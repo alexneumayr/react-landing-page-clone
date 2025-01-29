@@ -3,6 +3,7 @@
   margin: 0 50px;
   @media (max-width: 765px) {
     height: 600px;
+    margin: 0;
   }
 }
 
@@ -23,6 +24,7 @@
   }
   @media (max-width: 765px) {
     font-size: 24px;
+    margin: 5px;
   }
 }
 
@@ -43,6 +45,7 @@
   @media (max-width: 765px) {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    padding: 0 50px;
   }
 }
 
@@ -50,5 +53,11 @@
   @media (max-width: 765px) {
     width: 100px;
     justify-self: center;
+  }
+}
+
+.centralElements p {
+  @media (max-width: 765px) {
+    margin: 5px;
   }
 }
